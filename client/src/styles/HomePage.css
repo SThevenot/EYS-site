@@ -1,3 +1,24 @@
+/** @format */
+
+#homePageSection {
+  height: 100% !important;
+  width: 100% !important;
+  border: 2px red solid;
+}
+
 #homeImg {
-    background-image: url("../images/newjeans.jpg");
+}
+
+#carouselDiv {
+    z-index: 20;
+    bottom: 50px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: transparent !important;
+}
+
+.carousel-indicators {
+    background-color: transparent !important;
 }
