@@ -5,7 +5,7 @@
   display: flex;
   position: fixed;
   width: 100% !important;
-  top: 30px;
+  top: 25px;
 }
 
 #navTabSection h2 {
@@ -30,6 +30,24 @@ position: relative;
 padding: 0px 10px;
 }
 
+#navListItem a {
+  text-decoration: none;
+  color: var(--darkBlue) !important;
+}
+
+#navListItem button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+#navListItem a:hover {
+  color: var(--pink) !important;
+}
+
+
 #homePageSection {
   height: 100% !important;
   width: 100% !important;
@@ -53,3 +71,4 @@ padding: 0px 10px;
 .carousel-indicators {
   background-color: transparent !important;
 }
+
