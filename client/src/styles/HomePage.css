@@ -1,24 +1,55 @@
 /** @format */
 
+#navTabSection {
+  z-index: 100 !important;
+  display: flex;
+  position: fixed;
+  width: 100% !important;
+  top: 30px;
+}
+
+#navTabSection h2 {
+  padding-left: 30px;
+  color: var(--darkBlue);
+}
+
+#navHeaderDiv {
+  display: flex;
+  width: 90% !important;
+  justify-content: space-between;
+}
+
+#navList {
+list-style: none;
+display: flex;
+align-items: center;
+position: relative;
+}
+
+#navListItem {
+padding: 0px 10px;
+}
+
 #homePageSection {
   height: 100% !important;
   width: 100% !important;
-  border: 2px red solid;
 }
 
-#homeImg {
+#newJeansImg {
+  height: 877px !important;
 }
 
 #carouselDiv {
-    z-index: 20;
-    bottom: 50px;
+  bottom: 50px;
+  padding: 0px !important;
+  height: 877px;
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .carousel-indicators {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }

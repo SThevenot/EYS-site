@@ -1,6 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
-const newJeans = require("../images/newjeans.jpg")
+const newJeans2 = require("../images/newjeans2.webp")
+const newJeans1 = require("../images/newjeans1.jpg")
+const newJeans3 = require("../images/newjeans3.webp")
 
 function CarouselHomePage() {
     
@@ -9,21 +11,24 @@ function CarouselHomePage() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={newJeans}
+          id='newJeansImg'
+          src={newJeans2}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          id='newJeansImg'
+          src={newJeans1}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          id='newJeansImg'
+          src={newJeans3}
           alt="Third slide"
         />
       </Carousel.Item>

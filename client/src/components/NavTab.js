@@ -6,7 +6,13 @@ import Hamburger from "./Hamburger";
 function NavTab() {
   return (
     <div id="navTabSection">
-      <h2>Nav Bar</h2>
+      <div id="navHeaderDiv">
+      <h2>EYS  |  MNY</h2>
+      <ul id="navList">
+        <li id="navListItem">Facebook</li>
+        <li id="navListItem">Instagram</li>
+      </ul>
+      </div>
       <Hamburger/>
     </div>
   );
