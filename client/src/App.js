@@ -6,6 +6,7 @@ import ContactUs from "./pages/ContactUs";
 import NavTab from "./components/NavTab";
 import Footer from "./components/Footer";
 
+import "./styles/Universal.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
