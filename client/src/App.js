@@ -15,7 +15,7 @@ function App() {
     <Router>
       <NavTab pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
       <Routes>
-        <Route exact path="/" element={<HomePage />}></Route>
+        <Route exact path="/EYS-site" element={<HomePage />}></Route>
         <Route exact path="/members" element={<Members />}></Route>
         <Route
           exact
@@ -24,9 +24,9 @@ function App() {
         ></Route>
         <Route exact path="/contact-us" element={<ContactUs />}></Route>
       </Routes>
-      <section id="footerSection">
+      {/* <section id="footerSection">
         <Footer />
-      </section>
+      </section> */}
     </Router>
   );
 }

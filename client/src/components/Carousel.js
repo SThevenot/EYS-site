@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
-const newJeans2 = require("../images/newjeans2.webp")
+const newJeans2 = require("../images/newjeans2.png")
 const newJeans1 = require("../images/newjeans1.jpg")
-const newJeans3 = require("../images/newjeans3.webp")
+const newJeans3 = require("../images/newjeans3.png")
 
 function CarouselHomePage() {
     

@@ -1,0 +1,63 @@
+/** @format */
+
+#membersSection {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--lightBlue);
+}
+
+h1 {
+  padding: 10px;
+}
+
+#membersInfoDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#membersInfoDivLeft,
+#membersInfoDivRight {
+  margin: 20px;
+  display: flex !important;
+  justify-content: space-between;
+}
+
+#membersInfoDivLeft {
+  flex-direction: row;
+}
+
+#membersInfoDivRight {
+  flex-direction: row-reverse;
+}
+
+#memberImgLeft {
+  float: left;
+}
+
+#memberImgRight {
+  float: right;
+}
+
+#membersInfoDiv img {
+  border-radius: 10px;
+  border: 2px var(--darkBlue) solid;
+}
+
+#membersInfoDiv img:hover {
+  box-shadow: 2px 2px 5px var(--brightBlue);
+}
+
+#memberInfoTextDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+#memberInfoTextDiv h2 {
+  padding: 10px;
+}
