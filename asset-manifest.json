@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EYS-site/static/css/main.ec50d4af.css",
+    "main.js": "/EYS-site/static/js/main.f1effb12.js",
+    "static/media/newjeans1.jpg": "/EYS-site/static/media/newjeans1.088c56b76d8898f09c35.jpg",
+    "static/media/newjeans3.webp": "/EYS-site/static/media/newjeans3.773af7c141d21cc2fd71.webp",
+    "static/media/newjeans2.webp": "/EYS-site/static/media/newjeans2.3dcde10310a78d9bb9f5.webp",
+    "index.html": "/EYS-site/index.html",
+    "main.ec50d4af.css.map": "/EYS-site/static/css/main.ec50d4af.css.map",
+    "main.f1effb12.js.map": "/EYS-site/static/js/main.f1effb12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec50d4af.css",
+    "static/js/main.f1effb12.js"
+  ]
+}
