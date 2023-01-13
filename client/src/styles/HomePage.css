@@ -21,14 +21,14 @@
 }
 
 #navList {
-list-style: none;
-display: flex;
-align-items: center;
-position: relative;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 #navListItem {
-padding: 0px 10px;
+  padding: 0px 10px;
 }
 
 #navListItem a {
@@ -48,13 +48,11 @@ padding: 0px 10px;
   color: var(--pink) !important;
 }
 
-
 #homePageSection {
   height: 100% !important;
   width: 100% !important;
   background-color: var(--pink);
 }
-
 
 #carouselDiv {
   bottom: 50px;
@@ -73,4 +71,42 @@ padding: 0px 10px;
 
 .carousel-item {
   width: 140% !important;
+}
+
+#missionSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#missionStatementDiv {
+  text-align: center;
+  margin: 40px 50px;
+  background-color: var(--lightBlue);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#groupPhotosDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#groupPhotosDiv div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#groupPhotosDiv div img {
+  width: 90%;
+  margin: 30px;
+  border-radius: 20px;
+  border: 2px solid var(--brightBlue);
+}
+
+#groupPhotosDiv div img:hover {
+  box-shadow: 2px 2px 5px var(--brightBlue);
 }
