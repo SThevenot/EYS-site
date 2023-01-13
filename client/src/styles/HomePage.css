@@ -8,9 +8,10 @@
   top: 25px;
 }
 
-#navTabSection h2 {
+#title {
   padding-left: 30px;
   color: var(--darkBlue);
+  text-decoration: none !important;
 }
 
 #navHeaderDiv {
@@ -51,6 +52,7 @@ padding: 0px 10px;
 #homePageSection {
   height: 100% !important;
   width: 100% !important;
+  background-color: var(--pink);
 }
 
 
@@ -69,3 +71,6 @@ padding: 0px 10px;
   background-color: transparent !important;
 }
 
+.carousel-item {
+  width: 140% !important;
+}
