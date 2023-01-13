@@ -10,8 +10,12 @@
 
 #title {
   padding-left: 30px;
-  color: var(--darkBlue);
+  color: var(--darkPurple);
   text-decoration: none !important;
+}
+
+#title:hover {
+  color: var(--dustyPink);
 }
 
 #navHeaderDiv {
@@ -33,7 +37,7 @@
 
 #navListItem a {
   text-decoration: none;
-  color: var(--darkBlue) !important;
+  color: var(--darkPurple) !important;
 }
 
 #navListItem button {
@@ -45,13 +49,13 @@
 }
 
 #navListItem a:hover {
-  color: var(--pink) !important;
+  color: var(--dustyBeige) !important;
 }
 
 #homePageSection {
   height: 100% !important;
   width: 100% !important;
-  background-color: var(--pink);
+  background-color: var(--dustyBeige);
 }
 
 #carouselDiv {
@@ -82,7 +86,7 @@
 #missionStatementDiv {
   text-align: center;
   margin: 40px 50px;
-  background-color: var(--lightBlue);
+  background-color: var(--dustyPink);
   padding: 30px;
   border-radius: 10px;
 }
@@ -104,9 +108,9 @@
   width: 90%;
   margin: 30px;
   border-radius: 20px;
-  border: 2px solid var(--brightBlue);
+  border: 2px solid var(--lightPurple);
 }
 
 #groupPhotosDiv div img:hover {
-  box-shadow: 2px 2px 5px var(--brightBlue);
+  box-shadow: 2px 2px 5px var(--lightPurple);
 }

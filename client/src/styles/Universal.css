@@ -1,13 +1,11 @@
 /** @format */
 
 :root {
-  --darkBlue: #3762cc;
-  --mediumBlue: #4671c6;
-  --brightBlue: #a4c9ff;
-  --lightBlue: #e0ebfc;
-  --pink: #f9a7a7;
-  --teal: #6bdddd;
-  --yelow: #ffea92;
+  --darkPurple: #565264;
+  --lightPurple: #706677;
+  --dustyPink: #A6808C;
+  --dustyBeige: #CCB7AE;
+  --beige: #D6CFCB;
 }
 
 * {
@@ -26,12 +24,12 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: var(--darkBlue);
+  background: var(--darkPurple);
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: var(--yelow);
+  background: var(--beige);
 }
 
 /* Position and sizing of clickable cross button */
@@ -42,7 +40,7 @@
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: black;
+  background: var(--dustyBeige);
 }
 
 /*
@@ -57,7 +55,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: var(--brightBlue);
+  background: var(--lightPurple);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -77,7 +75,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-item {
   display: inline-block;
   list-style: none !important;
-  color: var(--darkBlue);
+  color: var(--darkPurple);
 }
 
 /* Styling of overlay */
@@ -87,8 +85,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .links {
   text-decoration: none !important;
+  color: var(--beige);
 }
 
 .links:hover{
-  color: var(--lightBlue);
+  color: var(--dustyPink);
 }

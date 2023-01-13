@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: var(--lightBlue);
+  background-color: var(--dustyPink);
 }
 
 h1 {
@@ -44,11 +44,11 @@ h1 {
 
 #membersInfoDiv img {
   border-radius: 10px;
-  border: 2px var(--darkBlue) solid;
+  border: 2px var(--darkPurple) solid;
 }
 
 #membersInfoDiv img:hover {
-  box-shadow: 2px 2px 5px var(--brightBlue);
+  box-shadow: 2px 2px 5px var(--lightPurple);
 }
 
 #memberInfoTextDiv {
